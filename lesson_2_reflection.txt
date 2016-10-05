@@ -11,13 +11,25 @@ us to commit only the files we want
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+I can put only the required files to staging area
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+For example when I want to create a different version of code to test some new 
+features. Branches allows me to try it without changing the main version
+
 How do the diagrams help you visualize the branch structure?
+
+It makes all the relationships clearly visible
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+Now we have a combined version of two separate branches of code changes.
+Because tree-like structure is the best way to represent it
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+Automatic merging saves time but might introduce mistakes
